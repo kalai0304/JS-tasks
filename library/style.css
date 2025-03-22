@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+}
+.library{
+    margin: 5% auto;
+    width: 100%;
+}
+.library h1,h3{
+    text-align: center;
+    margin: 5px auto;
+}
+table{
+    border: 1px solid brown;
+    margin: 0 auto;
+    width: 60%;
+    min-width: 350px;
+}
+table td ,th{
+    font-size: 1.2em;
+    padding: 5px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}   
+thead th{
+    background-color: green;
+}
+tbody tr:nth-child(odd){
+    background-color: rgb(123, 206, 222);
+    color: rgb(11, 13, 22);
+}
+table tr:nth-child(even){
+    background-color: rgb(241, 241, 12);
+    color: rgb(144, 14, 14);
+}
+button{
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 0;
+    color: inherit;
+}
+button:hover{
+    color: rgb(234, 34, 34);
+}
+td:last-child{
+    text-align: center;
+}
+#promt{
+    margin: 10px auto;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(107, 2, 2);
+}
